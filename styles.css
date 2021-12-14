@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.button {
+  background-color: #ff87ab ;
+  padding: 15px 32px;
+  font-size: 20px;
+  font-family: "Roboto Thin";
+}
+
+
+div#heartbkgd {
+  color: whitesmoke;
+  font-family: "Spicy Rice";
+  font-size: 60px;
+  text-align: center;
+  text-shadow: #ff5d8f 1px 1px 2px;
+  padding:5%;
+  width: auto;
+  height:150px;
+  background-position: top center;
+  background-image: url(https://data.whicdn.com/images/356058336/original.jpg);
+  
+}
+
+body {
+  background: #ff87ab;
+  font-family: Georgia, serif;
+  color: #fdfdfd;
+  font-size: 45px;
+}
+
+a {
+  color: #ff5d8f;
+  text-decoration: none;
+  font-family: "spicy rice";
+}
+
+a:hover,
+a.selected {
+  color: #ff87ab;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+  text-align: center;
+  color: #fadde1;
+  text-shadow: #000 1px 1px 2px;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 70px;
+  font-family: "spicy rice";
+  
+}
+
+h2 {
+  font-size: 14px;
+}
+
+
+#timeline {
+  width: 1000px;
+  height: 1000px;
+  margin-top: 0px;
+  margin-left:230px;
+  background-color: #ffc4d6;
+  position: top center;
+}
+
+#dates {
+  width: 100px;
+  height: 600px;
+  float: left;
+  overflow: hidden;
+}
+
+#dates li {
+  list-style: none;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  font-size: 24px;
+  padding-left: 40px;
+  padding-right: 20px;
+  
+}
+
+#dates a {
+  line-height: 38px;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  margin-top:20px;
+}
+
+#dates .selected {
+  font-size: 38px;
+}
+
+#issues {
+  width: 500px;
+  height: 600px;
+  overflow: hidden;
+}
+
+#issues li {
+  max-width: 900px; // width: 400px;
+  height: 600px;
+  list-style: none;
+  text-align: center; // add
+  position: fixed;
+  margin-left: 150px;
+}
+
+#issues li.selected img {
+  transform: scale(1.1, 1.1);
+}
+
+#issues li img {
+  // float: left;
+  width: 250px; /* add */
+  margin: 10px 50px 10px 30px;
+}
+
+#issues li h1 {
+  color: #ff87ab;
+  font-size: 65px;
+  text-align: center;
+  text-shadow: #000 1px 1px 2px;
+}
+
+#issues li p {
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 27px;
+  text-shadow: #000 1px 1px 2px;
+  
+}
+
+
+
+/*#next,
+#prev {
+  position: absolute;
+  left: 45%; // left: 55%;
+  font-size: 70px;
+  width: 38px;
+  height: 22px;
+  background-position: 0 -44px;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+#next:hover,
+#prev:hover {
+  background-position: 0 0;
+}
+
+#next {
+  bottom: 20;
+  background-image: url('https://lh3.googleusercontent.com/proxy/qq7kOHcmTFLrlC2aszRqH6TbfBwX-EZcvTzAFVeyFAVG7EX4XpCODbirZD8Gop0HrFkrz6w6AFRLu8O6KMpEg6YNq13EJg8');
+}
+
+#prev {
+  top: 20;
+  background-image: url('https://lh3.googleusercontent.com/proxy/qq7kOHcmTFLrlC2aszRqH6TbfBwX-EZcvTzAFVeyFAVG7EX4XpCODbirZD8Gop0HrFkrz6w6AFRLu8O6KMpEg6YNq13EJg8');
+}
